@@ -1,11 +1,9 @@
-# CTMAP: an adversarial cross-modal learning framework for accurate and robust cell-type annotation in single-cell spatial transcriptomics
+# CTMAP: an adversarial cross-modal learning framework for accurate and robust cell-type annotation in single-cell resolution spatial transcriptomics
 
 ## Introduction
 `CTMAP` is a deep learning framework for accurate cell-type annotation in single-cell spatial transcriptomics. It aligns scRNA-seq reference data with spatial transcriptomic profiles in a shared latent space through adversarial learning, enabling precise and robust cell-type annotation.
 
-<div align="center">
-  <img src="./overview.jpg" alt="CTMAP Framework Overview" width="80%">
-</div>
+![图片描述](https://i.imgur.com/n8cJnBV.png)
 
 ## Installation
 CTMAP is designed to run on GPUs and is tested with Python 3.9 in a Conda environment.
@@ -41,5 +39,5 @@ python CTMAP/run.py
 * **[CTMAP pipeline on the MERFISH dataset](./tutorial.ipynb)**: Workflow covering data loading, model training, evaluation (Accuracy, NMI, ARI), and visualization for the mouse hypothalamic preoptic MERFISH dataset.
 
 ## Citation
-Citation details will be added upon publication.
+Ying Wang, Jinyue Zhao, Mingming Guan, and Duanchen Sun. CTMAP: an adversarial cross-modal learning framework for accurate and robust cell-type annotation in single-cell resolution spatial transcriptomics. *Briefings in Bioinformatics*, 2026.
 
